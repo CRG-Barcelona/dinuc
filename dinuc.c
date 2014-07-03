@@ -27,8 +27,9 @@ errAbort(
   "usage:\n"
   "   dinucs tag sequence_file output.wig\n"
   "options:\n"
-  "   -prostar=word,w     get the deformation values of roll or tilt, etc with\n"
-  "                       word=\"roll\", for example.  w is the window size\n"
+  "   -prostar=w          get the deformation values of roll or tilt, etc with\n"
+  "                       w being the window size. For roll, then the main parameter\n"
+  "                       tag must be \"roll\".\n"
   "   -wigtype=val        where val is fix, bg, or var\n"
     );
 }
